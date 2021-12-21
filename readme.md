@@ -18,18 +18,18 @@ By the end of this course you will be able to
 </ul> 
 
 
-###  [Week 1](https://github.com/htefera/Coursera-Data-Analysis-with-Scala-and-Spark-/tree/master/example)
+###  [Week 1](https://github.com/htefera/Data-Analysis-with-Scala-and-Spark/tree/master/example)
 #### Getting Started + Spark Basics
 Get up and running with Scala on your computer. Complete an example assignment to familiarize yourself with our unique way of submitting assignments. In this week, we'll bridge the gap between data parallelism in the shared memory scenario (learned in the Parallel Programming course, prerequisite) and the distributed scenario. We'll look at important concerns that arise in distributed systems, like latency and failure. We'll go on to cover the basics of Spark, a functionally-oriented framework for big data processing in Scala. We'll end the first week by exercising what we learned about Spark by immediately getting our hands dirty analyzing a real-world data set.
 
-### [Week 2](https://github.com/htefera/Coursera-Data-Analysis-with-Scala-and-Spark-/tree/master/wikipedia)
+### [Week 2](https://github.com/htefera/Data-Analysis-with-Scala-and-Spark/tree/master/wikipedia)
 
 #### Reduction Operations & Distributed Key-Value Pairs
 This week, we'll look at a special kind of RDD called pair RDDs. With this specialized kind of RDD in hand, we'll cover essential operations on large data sets, such as reductions and joins.
-### [Week 3](https://github.com/htefera/Coursera-Data-Analysis-with-Scala-and-Spark-/tree/master/stackoverflow)
+### [Week 3](https://github.com/htefera/Data-Analysis-with-Scala-and-Spark/tree/master/stackoverflow)
 #### Partitioning and Shuffling
 This week we'll look at some of the performance implications of using operations like joins. Is it possible to get the same result without having to pay for the overhead of moving data over the network? We'll answer this question by delving into how we can partition our data to achieve better data locality, in turn optimizing some of our Spark jobs.
-### [Week 4](https://github.com/htefera/Coursera-Data-Analysis-with-Scala-and-Spark-/tree/master/timeusage)
+### [Week 4](https://github.com/htefera/Data-Analysis-with-Scala-and-Spark/tree/master/timeusage)
 
 #### Structured data: SQL, Dataframes, and Datasets
 With our newfound understanding of the cost of data movement in a Spark job, and some experience optimizing jobs for data locality last week, this week we'll focus on how we can more easily achieve similar optimizations. Can structured data help us? We'll look at Spark SQL and its powerful optimizer which uses structure to apply impressive optimizations. We'll move on to cover DataFrames and Datasets, which give us a way to mix RDDs with the powerful automatic optimizations behind Spark SQL.
